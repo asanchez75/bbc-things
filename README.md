@@ -77,7 +77,7 @@ The properties vary depending on the entity (e.g. places have lat/lon properties
 var BBCThings = require('bbc-things');
 BBCThings.search("Ed Miliband")
 .then(function(things) {
-    thing[0].properties()
+    things[0].properties()
     .then(function(properties) {
         console.log ( properties );        
     });
